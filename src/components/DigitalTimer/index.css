@@ -1,0 +1,109 @@
+/* Write your CSS here */
+
+.bg-container {
+  font-family: 'roboto';
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-cont {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  width: 40%;
+  height: 70%;
+  margin-right: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 35%;
+  border-radius: 50%;
+}
+
+.head {
+  margin-bottom: 0px;
+  color: #00d9f5;
+}
+
+.para {
+  color: #1e293b;
+  font-weight: bolder;
+}
+
+.controls {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+}
+
+.label {
+  color: #1e293b;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.butt-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt {
+  background-color: transparent;
+  border-style: none;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.tl-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tl-para {
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  font-weight: bolder;
+}
+
+.tl-head {
+  color: #1e293b;
+}
